@@ -1,0 +1,112 @@
+[
+  {
+    "ContainingType": "ChatService.Controllers.ChatsController",
+    "Method": "CloseChat",
+    "RelativePath": "api/Chats/close/{chatId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chatId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatService.Controllers.ChatsController",
+    "Method": "CreateChat",
+    "RelativePath": "api/Chats/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChatService.DTOs.CreateChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatService.Controllers.ChatsController",
+    "Method": "HealthCheck",
+    "RelativePath": "api/Chats/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatService.Controllers.ChatsController",
+    "Method": "GetChatMessages",
+    "RelativePath": "api/Chats/messages/{chatId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chatId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatService.Controllers.ChatsController",
+    "Method": "GetMyChats",
+    "RelativePath": "api/Chats/my",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatService.Controllers.ChatsController",
+    "Method": "ReopenChat",
+    "RelativePath": "api/Chats/reopen/{chatId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chatId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatService.Controllers.ChatsController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Chats/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChatService.DTOs.SendMessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatService.Controllers.ChatsController",
+    "Method": "GetChatStats",
+    "RelativePath": "api/Chats/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
