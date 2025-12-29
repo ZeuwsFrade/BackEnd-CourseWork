@@ -1,0 +1,46 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "ApiGateway",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Gateway/health": {
+      "get": {
+        "tags": [
+          "Gateway"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Gateway/status": {
+      "get": {
+        "tags": [
+          "Gateway"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Gateway/services": {
+      "get": {
+        "tags": [
+          "Gateway"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
